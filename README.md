@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Create a .env file 
-Create a `.env` file based on `.env.example` and fill in actual database credentials. 
+Create a `.env` file based on `env.example` and fill in actual database credentials. 
 
 ### 5. Run Migrations
 ```powershell
