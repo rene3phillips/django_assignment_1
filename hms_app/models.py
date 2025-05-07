@@ -24,7 +24,7 @@ class Appointment(models.Model):
     diagnosis = models.TextField()
 
     def __str__(self):
-        return f"Appointment: {self.patient.first_name} {self.patient.last_name}"
+        return f"Appointment: {self.patient.first_name} {self.patient.last_name} with Dr. {self.doctor.first_name} {self.doctor.last_name}"
 
 class Billing(models.Model):
     appointment = models.ForeignKey(Appointment, on_delete=models.CASCADE)
