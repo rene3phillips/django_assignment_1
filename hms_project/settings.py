@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hms_app', # Add your app here
+    'hms_app.apps.HmsAppConfig', 
 ]
 
 MIDDLEWARE = [
